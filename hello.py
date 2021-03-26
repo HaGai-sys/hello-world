@@ -1,3 +1,6 @@
 
 # print hello world
-print("Hello World")
+def main(name):
+	print(f"hello {name}")
+
+main("world")
